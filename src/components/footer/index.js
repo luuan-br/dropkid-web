@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <img
-        src={require("../../images/logo@3x.png")}
+        src={require("../../static/logo-dropkid.png")}
         alt="logo drop kid"
         className="icon-logo"
       />

@@ -10,8 +10,8 @@ const Header = () => {
       <div className="container">
         <div className="image-spotlight">
           <img
-            src={require("../../images/img@3x.png")}
-            alt="not-fount"
+            src={require("../../static/imagem-promocional.png")}
+            alt="imagem da tela inicial do aplicativo drop kid"
             className="spotlight"
           />
         </div>
@@ -36,7 +36,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={require("../../images/google-player@3x.png")}
+              src={require(`../../static/icone-google-player.png`)}
               alt=""
               className="google-store"
             />
