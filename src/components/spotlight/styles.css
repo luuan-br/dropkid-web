@@ -1,0 +1,45 @@
+aside.app-spotlight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 630px;
+  background-color: #353535;
+  padding: 30px 30px;
+  margin-top: 180px;
+  border-radius: 5px;
+}
+
+figure.spotlight-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-bottom: 1px solid rgba(66, 66, 66, 0.7);
+}
+
+figure.spotlight-item:last-of-type {
+  border: none;
+  padding-bottom: 10px;
+}
+
+figure.spotlight-item img {
+  width: 100%;
+  max-width: 75px;
+  margin-bottom: 30px;
+}
+
+figure.spotlight-item figcaption > p {
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  aside.app-spotlight {
+    padding: 25px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+}
