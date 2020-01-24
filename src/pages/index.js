@@ -6,6 +6,7 @@ import About from "../components/about"
 import Fqa from "../components/fqa"
 import Footer from "../components/footer"
 import SEO from "../components/seo"
+import Video from "../components/videos"
 
 export default ({ data }) => {
   return (
@@ -13,6 +14,7 @@ export default ({ data }) => {
       <SEO title="Home" />
       <Header />
       <About />
+      <Video />
       <Fqa data={data} />
       <Footer />
     </main>

@@ -9,7 +9,7 @@ const About = () => {
       <Spotlight />
 
       <div className="about-context">
-        <h2>Características e Informações</h2>
+        <h2>Características</h2>
 
         <div className="text">
           <p>
