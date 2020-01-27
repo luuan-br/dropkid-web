@@ -15,6 +15,15 @@ export default function Fqa({ data }) {
             </li>
           ))}
       </ul>
+      <p>
+        Para mais informacoes entre em contato pelo email:{" "}
+        <a
+          href="mailto:contato@apoiando.com.br"
+          subject="Contato%20Site%20DropKid%20-$20"
+        >
+          contato@apoiando.com.br
+        </a>
+      </p>
     </section>
   )
 }
